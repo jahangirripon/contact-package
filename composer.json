@@ -9,5 +9,12 @@
         "psr-4": { 
             "Ripon\\Contact\\": "src/" 
         }
+    },
+        "extra": {
+        "laravel": {
+            "providers": [
+                "Ripon\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
